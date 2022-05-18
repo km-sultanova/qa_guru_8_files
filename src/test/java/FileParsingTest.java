@@ -50,14 +50,11 @@ public class FileParsingTest {
             while((entry = zis.getNextEntry()) != null) {
                 if (entry.getName().contains(".xlsx")) {
                     org.assertj.core.api.Assertions.assertThat(entry.getName()).isEqualTo("Colors.xlsx");
-                    System.out.println("Entry xls");
                     xlsParsingTest(entry.getName());
                 } else if (entry.getName().contains(".csv")) {
                     csvParsingTest(entry.getName());
-                    System.out.println("Entry csv");
                 } else if (entry.getName().contains(".pdf")) {
                     pdfParsingTest(entry.getName());
-                    System.out.println("Entry pdf");
                 }
             }
         }
