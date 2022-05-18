@@ -1,0 +1,17 @@
+{
+  "bookName": "Harry Potter and the Philosopher's Stone",
+  "author": "J. K. Rowling",
+  "translateTo": [
+    "English",
+    "Russian",
+    "Kazakh",
+    "Maori",
+    "Klingon"
+  ],
+  "housesColors": {
+    "gryffindor": "red and gold",
+    "hufflepuff": "canary yellow and black",
+    "ravenclaw": "blue and bronze",
+    "slytherin": "green and silver"
+  }
+}
